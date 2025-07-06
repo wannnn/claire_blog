@@ -1,10 +1,10 @@
 import React from "react";
 import HomePage from "@root/components/HomePage";
 
-const BlogPage = () => {
+const PaginationPage = () => {
   return (
     <HomePage />
   );
 };
 
-export default BlogPage;
+export default PaginationPage;

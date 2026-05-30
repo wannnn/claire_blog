@@ -16,7 +16,7 @@ const BlogPost = ({ post }: { post: PostMetadata }) => {
       </Head>
 
       <Link
-        href={`/${post.category}/${post.id}`}
+        href={`/${post.country}/${post.id}`}
         className="flex flex-col bg-white text-black p-4 rounded-sm shadow-lg"
       >
         <Image
